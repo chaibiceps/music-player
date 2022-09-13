@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>abhi's music player </title>
+</head>
+<body class="popupp" style="width: 20rem; height: 5rem;" >
+
+    <div ><img src="images/afternoon.jpg" alt="ngh" id="image"></div>
+    
+    <div class="bigflex ">
+       
+
+        <div class="head-container">
+            
+            <h1 id="songtitle"><i class="icon-music"></i> song name </h1>
+            <p class="song-artist">artist name </p>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+        <!-- music buttons and box -->
+        <div class="music-container" id="music-container">
+            <audio src="music/water wood.mp3" id="audio"></audio>
+            <div class="navigation" style="z-index: 2;">
+               
+                <div id="previous" class="action-btn"><i class="icon-step-backward"></i> <img src="https://img.icons8.com/ios-glyphs/30/000000/skip-to-start.png"/> </div>
+                <div id="play" class="action-btn big-btn"><i class="fas icon-play"></i><img src="https://img.icons8.com/ios-glyphs/30/000000/play--v2.png"/></div>
+                <div id="next" class="action-btn back" style="transform: rotate(0deg);"><i class="icon-step-backward"></i><img src="https://img.icons8.com/ios-glyphs/30/000000/end--v1.png"/></div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>

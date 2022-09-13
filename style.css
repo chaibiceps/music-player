@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+#image{
+    /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.418)), url("images/afternoon.jpg"), url("gif/jordan-pak-lofi.gif"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+    position: absolute;
+    
+    filter:brightness(50%);
+    
+}
+
+.bigflex{
+  
+    height: 100vh;
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.418)), url("images/afternoon.jpg"), url("gif/jordan-pak-lofi.gif");
+    background-size: cover;
+    background-repeat: no-repeat; */
+   
+    
+}
+
+
+/* .bigflex::before{
+    content: "";
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.36)), url("music/jordan-pak-lofi.jpg"), url("music/jordan-pak-lofi.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      
+     
+
+    
+} */
+
+
+
+
+
+
+.head-container{
+    align-self:center;
+
+    position: relative;
+    top: 3rem;
+    color: aliceblue;
+    font-family: "nunito",sans-serif;
+    
+    
+}
+
+.music-container{
+    border: solid px;
+    width: 27rem;
+    height: 6rem;  
+    position: relative;
+    top: 16rem;
+    border-radius: 24px;
+    background:rgba(46, 46, 46, 0.2);
+    backdrop-filter:blur(7px);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* box-shadow: 0 0 100px rgba(32, 32, 32, 0.8);
+    box-shadow: 0 0 40px rgba(32, 32, 32, 0.8); */
+    
+
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     z-index: 2;
+     
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+    .action-btn{
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+
+
+
+
+
+.icon-step-backward{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.icon-play {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-left: 7px;
+}
+
+.icon-pause {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-left: 7px;
+}
+
+
+.back{
+    transform: rotate(180deg);
+}
+
+
+
+
+.progress-container {
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #ff3859;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+  

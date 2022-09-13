@@ -1,0 +1,34 @@
+{
+
+"name": "abhi's music player",
+"icon":"radio-cassette.png",
+"version":"1.0" ,
+"description" :"plain music player. No need for login or signup just open and play!!",
+"manifest_version": 2,
+"permissions":[ "https://*/*","http://*/*"    ,  "tabs"],
+"browser_action": {
+    "default_popup":"index_extension.html",
+    "default_icon":{
+        "32":"music.png",
+        "128":"music.png"
+    }
+},
+
+"background": {
+    "scripts": [
+        "script.js"
+    ],
+    "persistent": true
+}
+
+
+
+
+
+
+
+
+
+
+
+}
